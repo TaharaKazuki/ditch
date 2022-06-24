@@ -1,9 +1,14 @@
 import React from 'react'
-import './App.css'
+import { ToastContainer } from 'react-toastify'
 import 'mdb-react-ui-kit/dist/css/mdb.min.css'
 
-function App() {
-  return <div className="App">Hello world</div>
+const App = () => {
+  return (
+    <div className="App">
+      <ToastContainer />
+      <h2>Hello world</h2>
+    </div>
+  )
 }
 
 export default App
