@@ -40,6 +40,7 @@ const Login = () => {
             <MDBValidation onSubmit={handleSubmit} noValidate className="row g-3">
               <div className="col-md-12">
                 <MDBInput
+                  label="Email"
                   type="email"
                   value={email}
                   name="email"
@@ -49,6 +50,7 @@ const Login = () => {
               </div>
               <div className="col-md-12">
                 <MDBInput
+                  label="Password"
                   type="password"
                   value={password}
                   name="password"
